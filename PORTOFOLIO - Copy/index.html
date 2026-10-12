@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Firlino Candra Putra Sardityawan - Professional Graphic Designer & Visual Creative">
+    <meta name="theme-color" content="#0F0F0F">
+    <title>Firlino - Graphic Designer & Visual Creative | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-icon">F</span>
+                    <span class="logo-text">Firlino</span>
+                </a>
+            </div>
+            
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h4 class="hero-subtitle">Welcome to my portfolio</h4>
+                    <h1 class="hero-title">Graphic Designer <span class="accent">&</span> Visual Creative</h1>
+                    <p class="hero-description">Creating impactful visual experiences through branding, social media, and digital design. Let's transform your ideas into stunning visuals.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <span>View Portfolio</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1696159730505-b5bf1624ae3b?w=500&h=600&fit=crop" alt="Firlino - Graphic Designer" class="profile-image">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3>30+</h3>
+                    <p>Clients</p>
+                </div>
+                <div class="stat-item">
+                    <h3>5+</h3>
+                    <p>Years</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="mouse-scroll">
+                <div class="mouse-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Learn more about my journey and expertise</p>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=600&fit=crop" alt="About Firlino">
+                    <div class="image-overlay"></div>
+                </div>
+
+                <div class="about-text">
+                    <h3>Professional Creative with Passion for Design</h3>
+                    <p>I'm a passionate graphic designer with over 5 years of experience in creating compelling visual identities and designs that resonate with audiences. My journey started with a curiosity about how design shapes perception, and it has evolved into a commitment to delivering innovative solutions for every project.</p>
+                    
+                    <p>Specializing in branding, social media design, and digital experiences, I work closely with clients to understand their vision and transform it into stunning visuals that make an impact.</p>
+
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+
+                    <p class="about-philosophy"><strong>Design Philosophy:</strong> Great design is not just about aesthetics—it's about solving problems, communicating messages, and creating experiences that leave lasting impressions. I believe in combining creativity with strategy to deliver designs that truly matter.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO SECTION ========== -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <p class="section-subtitle">A selection of my best work across various mediums</p>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="poster">Poster Design</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=400&fit=crop" alt="Branding Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Modern Brand Identity</h3>
+                                <p>Complete branding package including logo, color palette, and guidelines</p>
+                                <span class="category-tag">Branding</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=400&h=400&fit=crop" alt="Social Media Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Social Media Campaign</h3>
+                                <p>Instagram posts and stories for seasonal marketing campaign</p>
+                                <span class="category-tag">Social Media</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="poster">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=400&fit=crop" alt="Poster Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Event Poster Series</h3>
+                                <p>Creative poster designs for music festival promotion</p>
+                                <span class="category-tag">Poster Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=400&fit=crop" alt="UI/UX Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Mobile App UI Design</h3>
+                                <p>Complete UI design for a fitness tracking mobile application</p>
+                                <span class="category-tag">UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=400&fit=crop" alt="Logo Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Premium Logo Design</h3>
+                                <p>Luxury brand logo with multiple variations and applications</p>
+                                <span class="category-tag">Branding</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=400&fit=crop" alt="Social Media Content">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Content Calendar Design</h3>
+                                <p>12-month social media content templates and graphics</p>
+                                <span class="category-tag">Social Media</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">What I can do for your brand</p>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Branding Design</h3>
+                    <p>Create complete brand identities including logo design, color palettes, typography systems, and brand guidelines.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Logo Design</h3>
+                    <p>Professional logo design that represents your brand's essence with multiple concepts and variations.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-instagram"></i>
+                    </div>
+                    <h3>Social Media Design</h3>
+                    <p>Eye-catching social media graphics, posts, stories, and content calendars for engaging audiences.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Print Design</h3>
+                    <p>Professional print design for business cards, flyers, brochures, posters, and packaging materials.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3>Packaging Design</h3>
+                    <p>Creative and functional packaging designs that attract customers and reflect your brand identity.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-friendly interface and experience design for web and mobile applications with modern aesthetics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Tools and expertise I use daily</p>
+
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Adobe Photoshop</h3>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Adobe Illustrator</h3>
+                        <span class="skill-percentage">92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Adobe InDesign</h3>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Adobe After Effects</h3>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Figma</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Canva</h3>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS SECTION ========== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Clients Say</h2>
+            <p class="section-subtitle">Real feedback from amazing clients</p>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Client Avatar">
+                        <div class="testimonial-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Firlino delivered an exceptional branding package that perfectly captured our company's vision. The professionalism and attention to detail were outstanding. Highly recommended!"</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Client Avatar">
+                        <div class="testimonial-info">
+                            <h4>Michael Chen</h4>
+                            <p>Startup Founder</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Working with Firlino on our social media campaign was a game-changer. The creative concepts were fresh, and the results exceeded our expectations. Can't wait to collaborate again!"</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Client Avatar">
+                        <div class="testimonial-info">
+                            <h4>Emma Rodriguez</h4>
+                            <p>Creative Agency Manager</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Firlino's UI/UX design for our app was intuitive and visually stunning. The whole team was impressed with the attention to user experience. A true professional!"</p>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="slider-btn prev" id="prevSlide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next" id="nextSlide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's create something amazing together</p>
+
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:firlino@example.com">firlino@example.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <a href="tel:+1234567890">+1 (234) 567-890</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Jakarta, Indonesia</p>
+                    </div>
+
+                    <div class="contact-socials">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Behance">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">F</span>
+                        <span class="logo-text">Firlino</span>
+                    </a>
+                    <p>Creating impactful visual experiences through creative design.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-socials">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Firlino Candra Putra Sardityawan. All rights reserved.</p>
+                <button class="back-to-top" id="backToTop">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== MODAL FOR PORTFOLIO ========== -->
+    <div class="modal" id="portfolioModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="" alt="" id="modalImage">
+            <div class="modal-details">
+                <h2 id="modalTitle"></h2>
+                <p id="modalCategory"></p>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
